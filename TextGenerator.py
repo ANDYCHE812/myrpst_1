@@ -1,9 +1,8 @@
 import os
-from sys import stdin, exit
+from sys import stdin
 from re import sub, split
 import pickle
 import random
-from time import sleep
 
 
 class TextGenerator:
