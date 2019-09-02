@@ -21,11 +21,10 @@ Installation
 for running it:
 
 1) type in terminal: 'python train.py --input-dir 'path_to_text_files' --model your_model_name.pkl'
-it will run 'train.py'. at 'path_to_text_files' there should be at least 1 '*.txt' file. it will be used for 'training'
+- it will run 'train.py'. at 'path_to_text_files' there should be at least 1 '*.txt' file. it will be used for 'training'
 'your_model_name.pkl'
-
 2) type in terminal: 'python generate.py --model your_model_name.pkl --seed your_word --length 17'
-it will run 'generate.py'. '--model' argument expects to get the string with your_model_name.pkl.
+- it will run 'generate.py'. '--model' argument expects to get the string with your_model_name.pkl.
 '--seed', which is an optional argument, expects to get a word, You'd like to get your sequence starting with (None by default).
 'length' argument expects to get an integer value with the length of a result sequence, for eg. , now it equals to 17
 (equals 1 by default).
